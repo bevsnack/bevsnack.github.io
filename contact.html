@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bevsnack</title>
+        <meta name="description" content="">
+        <link rel="icon" href="images/logo.png">
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="nav-style.css"/>
+    </head>
+    <style>
+    </style>
+    <body style="overflow-y: hidden;">
+        <ul id="navBar">
+            <li class="navLogo"><img src="images/logo.png" alt="Logo"></li>
+            <li class="navButt active" style="margin-right: 20px"><a href="contact.html">CONTACT</a></li>
+            <li class="navButt"><a href="about.html">ABOUT</a></li>
+            <li class="navButt"><a href="index.html">HOME</a></li>
+        </ul>
+        <div class="contBox" style="height:100vh;">
+            <form class="contactForm" action="contactform.php" method="post">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="text" name="email" placeholder="Your Email">
+                <input type="text" name="number" placeholder="Your Phone Number">
+                <textarea name="comments" placeholder="Any Comments..."></textarea>
+                <button type="submit" name="submit">Submit</button>
+            </form>
+            <div class="contactBox">
+                <h3 style="margin-top: 12vh; margin-left: 5vw">Bevsnack <br> Contact Form</h3>
+            </div>
+        </div>
+    </body>
+</html>
